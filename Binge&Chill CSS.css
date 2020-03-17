@@ -6,14 +6,14 @@ body {
   text-align: center;
 }
 
-#breakingbad{width: 50%; margin: 20px auto;}
+#breakingbad{width: 50%; margin: 20px auto; color: green;}
 
-#modernfamily{width: 50%; margin: 20px auto;}
+#modernfamily{width: 50%; margin: 20px auto;color: grey;}
 
-#friends{with: 50%; margin: 20px auto;}
+#friends{with: 50%; margin: 20px auto; color: blue;}
 
-#janethevirgin{width: 50%; margin: 20px auto;}
+#janethevirgin{width: 50%; margin: 20px auto; color: thistle;}
 
-#strangerthings{width: 50%; margin: 20px auto;}
+#strangerthings{width: 50%; margin: 20px auto; color: white;}
 
-#thewitcher{width: 50%; margin: 20px auto;}
+#thewitcher{width: 50%; margin: 20px auto; color: rgb(0, 255, 170);}
