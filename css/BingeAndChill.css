@@ -45,3 +45,21 @@ body {
 .navbarTitle {
   color: white;
 }
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0px;
+}
