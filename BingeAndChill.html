@@ -7,15 +7,18 @@
   <meta name="description" content>
   <meta name="author" content>
 
+  <!-- BOOTSTRAP CORE  -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="css/BingeAndChill.css" rel="stylesheet">
+
   <title>
     Binge&Chill
   </title>
-
-  <!-- BOOTSTRAP CORE  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Custom styles for this template -->
-  <link href="css/BingeAndChill.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,21 +64,21 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/Breaking badd.jpg" id="breakingbad" class="d-block w-100" alt="...">
+          <img src="./images/Breaking badd.jpg" id="breakingbad" class="movieThumbnail d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Breaking Bad</h5>
             <p>9.5/10, A high school chemistry teacher is diagnosed with an operable lung cancer and turns to the illegal drugs trade to provide financial security for his family</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/Game of thrones.jpg" id="Gameofthrones" class="d-block w-100" alt="...">
+          <img src="./images/Game of thrones.jpg" id="Gameofthrones" class="movieThumbnail d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Game of Thrones</h5>
             <p>9.3/10, Nine noble families fight for control over the mythical land of Westeros until an enemy awakens from the dead</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/Prison break.jpg" id="prisonbreak" class="d-block w-100" alt="...">
+          <img src="./images/Prison break.jpg" id="prisonbreak" class="movieThumbnail d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Prison Break</h5>
             <p>8.3/10, an innocent man has been sent to death row, his brother is his only hope of freeing him</p>
@@ -95,15 +98,15 @@
     <h1 class="bg-danger">Binge&Chill Comedy</h1>
     <div class="row">
       <div class="col-sm">
-        <img src="./images/modern family.jpg" id="modernfamily" class="d-block w-100" alt="...">
+        <img src="./images/modern family.jpg" id="modernfamily" class="movieThumbnail d-block" alt="...">
 
       </div>
       <div class="col-sm">
-        <img src="images/FRIENDS.jpg" id="friends" class="d-block w-100" alt="...">
+        <img src="images/FRIENDS.jpg" id="friends" class="movieThumbnail d-block" alt="...">
 
       </div>
       <div class="col-sm">
-        <img src="./images/Jane the virgin.jpg" id="janethevirgin" class="d-block w-100" alt="...">
+        <img src="./images/Jane the virgin.jpg" id="janethevirgin" class="movieThumbnail d-block" alt="...">
 
       </div>
     </div>
@@ -111,15 +114,15 @@
     <h1 class="bg-danger">Binge&Chill Horror</h1>
     <div class="row">
       <div class="col-sm">
-        <img src="images/Stranger things.jpg" id="strangerthings" class="d-block w-100" alt="...">
+        <img src="images/Stranger things.jpg" id="strangerthings" class="movieThumbnail d-block" alt="...">
 
       </div>
       <div class="col-sm">
-        <img src="./images/the walking dead.jpg">
+        <img src="./images/the walking dead.jpg" class="movieThumbnail d-block" alt="...">
 
       </div>
       <div class="col-sm">
-        <img src="./images/The witcher.jpg" id="thewitcher" class="d-block w-100" alt="...">
+        <img src="./images/The witcher.jpg" id="thewitcher" class="movieThumbnail d-block" alt="...">
 
       </div>
     </div>
@@ -134,14 +137,24 @@
     <footer>
       <div class="wrapper">
         <nav>
-        <ul>
-          <li><a href="Cantact us.html">Contact us</a></li>
+          <ul>
+            <li><a href="Cantact us.html">Contact us</a></li>
 
-        </ul>
+          </ul>
         </nav>
       </div>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
