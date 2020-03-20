@@ -7,7 +7,7 @@ body {
 }
 
 #breakingbad {
-  width: 50%;
+  width: 30%;
   margin: 20px auto;
   color: green;
 }
@@ -42,6 +42,22 @@ body {
   color: rgb(0, 255, 170);
 }
 
+#Ourplanet {
+  width: 100%;
+  margin: 20px auto;
+
+}
+
+#Blueplanet {
+  width: 50%;
+  margin: 20px auto;
+}
+
+#thewalkingdead {
+  width: 100%;
+  margin: 20px auto;
+}
+
 .navbarTitle {
   color: white;
 }
@@ -55,6 +71,50 @@ h1 {
 }
 
 p {
+  color: white;
+}
+
+
+header nav {
+  margin-top: 30px;
+  fload: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin-top: 73px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+
+
+
+
+footer nav {
+  float: left;
+}
+
+footer nav ul {
+ 
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+footer nav ul li a {
+  font-weight: 400;
+  font-size: 10px;
   color: white;
 }
 
