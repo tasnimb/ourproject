@@ -6,40 +6,10 @@ body {
   text-align: center;
 }
 
-#breakingbad {
-  width: 50%;
+.movieThumbnail {
+  width: 400px;
+  height: 600px;
   margin: 20px auto;
-  color: green;
-}
-
-#modernfamily {
-  width: 50%;
-  margin: 20px auto;
-  color: grey;
-}
-
-#friends {
-  width: 50%;
-  margin: 20px auto;
-  color: blue;
-}
-
-#janethevirgin {
-  width: 50%;
-  margin: 20px auto;
-  color: thistle;
-}
-
-#strangerthings {
-  width: 50%;
-  margin: 20px auto;
-  color: white;
-}
-
-#thewitcher {
-  width: 50%;
-  margin: 20px auto;
-  color: rgb(0, 255, 170);
 }
 
 .navbarTitle {
