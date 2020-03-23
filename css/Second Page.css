@@ -4,6 +4,12 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
 footer nav ul li {
@@ -27,3 +33,29 @@ footer nav ul li {
   p {
       color: white;
   }
+
+  .movieThumbnail2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+
+.gallery {
+  width: 200px;
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  height: 200px;
+}
+
+.gallery img {
+  margin: 0 20px;
+}
+
+.button2 {
+  align-items: center;
+  
+}
