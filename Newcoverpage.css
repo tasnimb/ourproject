@@ -61,3 +61,24 @@ header nav {
     background-color: black;
     padding: 60px 0px;
   }
+
+  #comedy {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  #horror {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  #documentaries {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  #favourites {
+    width: 60%;
+    margin: 20px auto;
+  }
+
