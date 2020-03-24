@@ -14,7 +14,7 @@ body {
 }
 
 #goodgirls {
-    width: 30%;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -58,4 +58,9 @@ footer nav ul li {
 
   h5 {
       color: white;
+  }
+
+  #review {
+      width: 30%;
+      margin: 20px auto;
   }
