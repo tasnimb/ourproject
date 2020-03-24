@@ -149,3 +149,13 @@ footer nav {
     background-color: #212529;
     padding: 60px 0px;
   }
+
+  #signin {
+      width: 30%;
+      margin: 20px auto;
+  }
+
+  #socialmedia {
+    width: 30%;
+    margin: 20px auto;
+}
