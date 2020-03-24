@@ -32,13 +32,7 @@ footer nav ul li {
       color: white;
   }
 
-  .movieThumbnail2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-  }
+
 
 
 .gallery {
@@ -60,5 +54,10 @@ footer nav ul li {
 
 #quarantinetitle {
   width: 30%;
+  margin: 20px auto;
+}
+
+#movies {
+  width: 20%;
   margin: 20px auto;
 }
